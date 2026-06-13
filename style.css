@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 80%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+    gap: 54rem;
+    background-color:  white;
+    margin: 2rem auto;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+.copyright {
+    font-size: 18px;
+    color: black;
+}
+
+.btn {
+    Display: flex;
+    padding: 0.1rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    border: 1px solid grey;
+    border-radius: 100%;
+    transition: all ;
+    transition: all 0.8s;
+    size: 10px;
+    
+
+}
+
+section {
+    background-color: #4a6741;
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+.name-wrapper {
+    position: relative;
+
+    width: 100%;
+    height: 200px;
+    /* background-color: white; */
+    
+    
+}
+
+.tran {
+    display: flex;
+justify-content: center;
+align-items: center;
+    font-size: 13rem;
+}
+
+
+.label-1, .label-2, .label-3 {
+    position: absolute;
+    font-size: 15px;
+    color: black;
+    top: 52px;
+}
+
+.label-1 { left: 34%; }   
+.label-2 { left: 45%; }   
+.label-3 { left: 66%; }   
+
+#nishanth {
+    width: 98.8vw;
+    height: auto;
+
+}
+
+
+
+
+.btn:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    transition: all 1s;
+}
+
+
+.btn:hover svg line  {
+    stroke: white;
+    
+    transition: all 0.8s;
+}
+
+.btn:hover svg path  {
+    stroke: white;
+    
+    transition: all 0.8s;
+}
+
+
+svg {
+    width: 40px;
+    height: 40px;
+    stroke: black;
+    transition: all 0.8s; 
+    margin-top: 0.2rem;
+}
+
+svg path, svg line {
+    stroke: #888;    /* grey color */
+}
+
